@@ -85,7 +85,7 @@ plt.figure()
 plot_confusion_matrix(cnf_matrix, classes=['churn=1','churn=0'],normalize= False,  title='Confusion matrix')
 
 
-
+print (classification_report(y_test, yhat))
 
 
 
